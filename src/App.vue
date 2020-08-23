@@ -1,17 +1,18 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
+    <h6 class="pasos">Obtén el Nombre, Correo y Telefono de Usuario Random:</h6>
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<Usuarios />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Usuarios from './components/Usuarios'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Usuarios
   }
 }
 </script>
@@ -24,5 +25,15 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
 }
+
+body{
+  background: rgba(230,235,62,10);
+}
+
+.pasos{
+  background: orange;
+}
+
 </style>
