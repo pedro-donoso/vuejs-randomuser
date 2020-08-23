@@ -5,7 +5,7 @@
         <p>{{ user.email }}</p>
         <p>{{ user.phone }}</p> 
       </div>
-      <button @click="fetchUsers">Cargar datos</button>
+      <button @click="fetchUsers" class="btn btn-danger">Cargar datos</button>
     </div>
 </template>
 
