@@ -1,5 +1,7 @@
 # [vuejs-randomuser.netlify.app](https://vuejs-randomuser.netlify.app/)
 
+![](https://user-images.githubusercontent.com/68760595/128288608-62c17976-6ebe-480a-94c9-1e055cc28b8d.PNG)
+
 ## Project setup
 
 ```
